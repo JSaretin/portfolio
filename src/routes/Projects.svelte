@@ -1,6 +1,6 @@
 <div class="w-full font-Source mt-10 flex flex-col gap-6">
 	<h3 class="text-2xl text-white">Projects</h3>
-	<p class="text-sm text-white">
+	<p class="text-base text-white">
 		These are some of my projects, you can see most of my publicly avaleble project on <a
 			href="https://github.com/JSaretin"
 			target="_blank">github</a
