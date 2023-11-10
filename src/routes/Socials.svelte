@@ -8,10 +8,10 @@
 </script>
 
 <div class="mt-10 text-gray-200 text-sm">
-	<h3 class="text-xl text-white font-medium mb-6">Socials</h3>
-	<p>
-		If you'd like to connect with Me, you can message me on any of my social handle. I am always
-		open to possitive conversation.
+	<h3 class="text-3xl text-white font-medium mb-6">Socials</h3>
+	<p class="text-lg">
+		For those interested in establishing a connection, feel free to reach out to me through any of
+		my social media handles. I am readily available for constructive and positive discussions.
 	</p>
 	<div class="flex justify-between gap-6 mt-6 fill-white stroke-white flex-wrap w-full">
 		<a target="_blank" href="https://twitter.com/JSaretin"

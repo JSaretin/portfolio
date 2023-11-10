@@ -10,13 +10,15 @@
 </script>
 
 <div class="flex flex-col gap-6 mt-10 font-Source">
-	<h3 class="text-2xl text-white">Skills</h3>
-	<p class="text-gray-100 text-sm leading-relaxed">
-		These are some of the languages John has used for building his project. Do not limit his
-		creativity to these only, John is a problem solver as opposed to the tradition programmer you
-		are used to. <span class="italic font-medium"
-			>If you want to connect a smart contract on the blockchain to your aqauponics farm, John can
-			get it do, including more. You get the idea.</span
+	<h3 class="text-3xl text-white">Skills</h3>
+	<p class="text-gray-100 text-base leading-relaxed">
+		Check out the awesome lineup of languages I've wielded to bring my projects to life! 🎨 But hey,
+		I'm not your typical programmer; think of me as a creative problem-solving wizard! 🚀💡 Ever had
+		the wild idea of linking a smart contract on the blockchain to your aquaponics farm? Well, I not
+		only make it happen but take it up a notch! 🌱💻 <br /><br /><span class="font-medium underline"
+			>My creativity knows no bounds – and trust me, that's just the beginning! Ready for a
+			mind-blowing journey? Buckle up because with me, the possibilities are endless! 🌈🚀
+			#CodingMagic</span
 		>
 	</p>
 	<div class="grid gap-4 w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 font-Source">
