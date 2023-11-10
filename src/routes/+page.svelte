@@ -6,29 +6,29 @@
 	import Socials from './Socials.svelte';
 </script>
 
-<div class="h-full w-full font-Montserrat">
-	<div class="h-full w-full flex flex-col lg:flex-row">
-		<!-- <div class="flex-1 h-full lg:overflow-hidden">
-			<div class="row-start-1 row-end-7 w-full p-4 overflow-y-scroll">
-				
-			</div>
-			<div
-				class="row-start-7 flex text-lg text-white justify-between p-6 border border-white w-full"
-			>
-				<p>Twitter</p>
-				<p>Twitter</p>
-				<p>Twitter</p>
-				<p>Twitter</p>
-			</div>
-		</div> -->
-		<div class="flex-[2] lg:overflow-y-scroll h-full p-4 lg:p-6 max-w-4xl mx-auto">
-			<About />
-			<Skills />
-			<!-- <Projects /> -->
-			<Socials />
+<div class="relative w-full font-Source">
+	<div class="static w-full left-0 top-0 shadow-sm shadow-gray-200">
+		<div class="max-w-4xl w-full mx-auto flex justify-between text-white p-4">
+			<div class="flex-1"><h1 class="font-bold uppercase">JSaretin</h1></div>
+			<ul class="flex justify-between flex-1 text-sm text-gray-200">
+				<li><a href="/">Home</a></li>
+				<li><a href="/">About</a></li>
+				<li><a href="/">Skill</a></li>
+				<li><a href="/">Projects</a></li>
+				<li><a href="/">Socials</a></li>
+			</ul>
+			<ul class="flex-1 flex justify-end">
+				<li>
+					<button class="bg-blue-500 p-1 rounded text-gray-950 text-sm">Get In Touch</button>
+					<button class="bg-green-400 p-1 rounded text-gray-950 text-sm">Get In Quote</button>
+				</li>
+			</ul>
 		</div>
-		<!-- <div class="flex-1 overflow-hidden h-full border-l border-l-white max-w-lg">
-			<Blogs />
-		</div> -->
+	</div>
+	<div class="p-4 lg:p-6 max-w-4xl mx-auto">
+		<About />
+		<Skills />
+		<!-- <Projects /> -->
+		<Socials />
 	</div>
 </div>
