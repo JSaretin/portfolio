@@ -1,59 +1,34 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import About from './About.svelte';
+	import Blogs from './Blogs.svelte';
+	import Projects from './Projects.svelte';
+	import Skills from './Skills.svelte';
+	import Socials from './Socials.svelte';
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+<div class="h-full w-full font-Montserrat">
+	<div class="h-full w-full flex flex-col lg:flex-row">
+		<!-- <div class="flex-1 h-full lg:overflow-hidden">
+			<div class="row-start-1 row-end-7 w-full p-4 overflow-y-scroll">
+				
+			</div>
+			<div
+				class="row-start-7 flex text-lg text-white justify-between p-6 border border-white w-full"
+			>
+				<p>Twitter</p>
+				<p>Twitter</p>
+				<p>Twitter</p>
+				<p>Twitter</p>
+			</div>
+		</div> -->
+		<div class="flex-[2] lg:overflow-y-scroll h-full p-4 lg:p-6 max-w-4xl mx-auto">
+			<About />
+			<Skills />
+			<!-- <Projects /> -->
+			<Socials />
+		</div>
+		<!-- <div class="flex-1 overflow-hidden h-full border-l border-l-white">
+			<Blogs />
+		</div> -->
+	</div>
+</div>
