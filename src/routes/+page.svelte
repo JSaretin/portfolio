@@ -27,7 +27,7 @@
 			<!-- <Projects /> -->
 			<Socials />
 		</div>
-		<!-- <div class="flex-1 overflow-hidden h-full border-l border-l-white">
+		<!-- <div class="flex-1 overflow-hidden h-full border-l border-l-white max-w-lg">
 			<Blogs />
 		</div> -->
 	</div>
