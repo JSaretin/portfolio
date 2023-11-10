@@ -9,7 +9,7 @@
 
 <div class="mt-10 text-gray-200 text-sm">
 	<h3 class="text-3xl text-white font-medium mb-6">Socials</h3>
-	<p class="text-lg">
+	<p class="text-base">
 		For those interested in establishing a connection, feel free to reach out to me through any of
 		my social media handles. I am readily available for constructive and positive discussions.
 	</p>

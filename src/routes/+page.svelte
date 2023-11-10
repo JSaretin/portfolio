@@ -36,7 +36,7 @@
 	<div class="p-4 lg:p-6 max-w-4xl mx-auto">
 		<About />
 		<Skills />
-		<!-- <Projects /> -->
+		<Projects />
 		<Socials />
 	</div>
 </div>
