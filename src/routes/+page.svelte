@@ -8,7 +8,7 @@
 
 <div class="relative w-full font-Source bg-gray-950 min-h-screen">
 	<div
-		class="fixed bg-black bg-opacity-70 backdrop-blur-sm lg:static w-full left-0 top-0 h-screen lg:h-fit lg:shadow-sm lg:shadow-gray-200 flex lg:block justify-center align-middle place-items-center translate-x-full lg:translate-x-0 transition-transform duration-200 ease-in-out"
+		class="fixed bg-black bg-opacity-70 backdrop-blur-sm lg:sticky w-full left-0 top-0 h-screen lg:h-fit lg:shadow-sm lg:shadow-gray-200 flex lg:block justify-center align-middle place-items-center translate-x-full lg:translate-x-0 transition-transform duration-200 ease-in-out"
 	>
 		<div
 			class="h-full max-w-4xl lg:w-full mx-auto flex flex-col lg:flex-row justify-between text-white p-4"
